@@ -1,0 +1,72 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* descendant Selectors*/ /* Combinators */
+header h1{
+    position: relative;
+    left: 1rem;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+nav{
+    position: relative;
+    right: 2rem;
+    top: 1rem;
+    width: 15rem;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly ;
+    margin: 10px;
+    text-align: center;
+}
+
+/*Class Selector*/
+.container{
+    margin: 2rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content:space-between ;
+}
+
+li{
+    list-style: none;
+}
+
+
+.showcaseimage{
+        width: 95vw;
+        margin: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;   /* Used with display flex*/ /*Display flex property*/
+    align-items: center;    /* Used with display flex*/ /*Display flex property*/
+    background-color: black;
+    color: blanchedalmond;
+    height: 4rem;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    font-size: 1.5rem;
+    color:red;
+}
